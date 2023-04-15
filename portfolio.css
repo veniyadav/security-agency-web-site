@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position:relative;
+    font-family: 'Playfair Display', serif;
+}
+.header-div{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/violence-3830650.jpg');
+    height: 110vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   animation-name: backimg;
+   animation-duration: 8s;
+   animation-delay: 10s;
+   animation-iteration-count: infinite;
+   animation-fill-mode: backwards;
+
+}
+@keyframes backimg {
+    0% { background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/violence-3830650.jpg');}
+    25%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/man-4134645.jpg');}
+    50%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/security-3028679.jpg');}
+    75%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/security-869216.jpg');}
+    100%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/soldier-4244132.jpg');}    
+}
+
+.main-log{
+    display: inline;
+}
+.main-log img{
+    margin: 10px 50px;
+}
+.logo-and-conent{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.content-with-info{
+    display: flex ;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.phone-thym{
+    margin: 0px 10px 0 50px;
+    background-color: rgb(231, 126, 6);
+    padding: 4px;
+    border-radius: 2px;
+}
+.icon{
+    margin-left:50px ;
+    color: #fff;
+}
+.content-with-info p{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-home{
+    display: inline;
+    float: right;
+}
+.menu-home ul li{
+  display: inline-block;
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+.menu-home a {
+    color: rgb(231, 126, 6);
+    text-decoration: none;  
+    position: relative;
+    transition: 0.5s;
+    margin:30px 22px 0px 30px;
+}
+
+.menu-home a::after{
+    content: '';
+    width: 00%;
+    height:2px;
+    position:absolute;
+    background-color: rgb(231, 126, 6);
+    bottom: -3px;
+    left: 0px;
+    transition: ease .40s;
+}
+.menu-home a:hover:after{
+    width: 0100%;
+}
+.menu-home .active::after{
+    width: 0100%;
+}
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.bodyguard{
+    display: block;
+     margin-right: 20%;
+    height: 85vh;
+    float: right;
+}
+.main-content-text{
+    margin: 20% auto;
+    width: 70%;
+    padding: 10px;
+    /* background:linear-gradient(120deg,#adf38463,#23e20a00); */
+    
+   
+}
+.main-content-text:hover{
+    background: none;
+}
+.content{
+    display: block;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+}
+.content h2{
+    text-align: center;
+    font-size: 40px;
+    color:  rgb(231, 126, 6);
+    margin-bottom: 10px;
+    margin-top: -10px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+.content h2 span{
+    color: #fff;
+} 
+.content h2 span:hover{
+    color: rgb(231, 126, 6);
+}
+.content p{
+    font-size: 23px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+.content-p{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.content input{
+    margin:auto;
+    margin-top: 10px;
+    font-size: 19px;
+    padding: 6px 40px;
+    border: none;
+    border-radius: 15px;
+    display: block;    
+    background-color: #fff;
+}
+.content input:hover{
+    color: aliceblue;
+    background-color: rgb(231, 126, 6);
+}
+
+.content #tag-line{
+    font-weight: 100;
+}
+#tag-line span{
+    color:  rgb(231, 126, 6);
+    font-weight: 100;
+}
+.main-contant p span:hover{
+    color:  rgb(233, 226, 217);
+}
+
+/* ------------------------ About section ---------------- */
+
+.About-section-main{
+    width: 100%;
+    height: 170vh;
+    /* display: flex; */
+    display: block;
+    background-color:rgb(231, 126, 6);
+    justify-content: center;
+    /* position: absolute; */
+}
+.main-container-box{
+    display: flex;
+    height: 20vh;
+    width: 70%;
+   margin-top:-60px ;
+    background-color:rgb(231, 126, 6);
+    position: absolute;
+    /* text-align: center; */
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    z-index: 10000;
+}
+.main-container-About-content{
+    margin:10px;
+    margin-bottom: 10%;
+    height: 60vh;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+}
+.video{
+    margin: 0;
+    width: 75%;
+    background-color: black;
+}
+.content-main-about{
+    display: block;
+    margin: 0 ;
+    width: 100%;
+    overflow: hidden;
+}
+.content-main-about-img{
+    display: block;
+    margin: 0 ;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Enquire-now{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+.content-main-about-img:hover .Enquire-now {
+       transform: scale(1.5);
+}
+ .inquiry{
+   margin-left: 20px;
+   margin-right: 10px;
+}
+.content-main-about h3{
+    text-transform: uppercase;
+    font-size: x-large;
+    margin-top: 30px;
+}
+.content-main-about p{
+    margin-top: 5px;
+    font-size: 25px;
+    color: #9c9999;
+    font-weight:80;
+}
+ .contianer-to-speech{
+  margin-top: 30%;
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+  color: #fff;
+  position: absolute;
+}
+.main-containar-peech{
+    width: 100%;
+    display: block;   
+}
+.speech-header-container{
+    margin-left: 10px;
+}
+.container-third{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.third-container{
+    margin-left: 40px;
+    margin-right: 25px;
+}
+.container-third p{
+    color: #d6d2d2;
+    font-weight: 100;
+}
+#p-tag{
+    color: #fff;
+    margin-top: 5px;
+   font-weight: 500;
+}
+.peech-second{
+    width: 50%;
+}
+.speech-header-second{
+    margin-right: 50px;
+}
+.speech-header-container h5{
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 200;
+}
+.speech-header-second h5{
+    font-size: 27px;
+    margin-top: 35px;
+}
+.speech-header-container h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.speech-header-second h2{
+    font-size: 35px;
+}
+.third-container ul li{
+    list-style-type: circle;
+}
+.fa-solid{
+    list-style-position: outside;
+    display: flex;
+}
+.speech-header-container span{
+    width: 90px;
+    height: 8px;
+    display: block;
+    border:2px solid black ;
+    margin-bottom: 30px;
+}
+.speech-header-container span::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    border:3px solid black ;
+}
+.container-third button{
+    margin-top:30px;
+    padding: 7px 10px;
+    background-color: #fff;
+    border:none;
+    /* border-right-color: none; */
+
+}
+.container-third i{
+    background-color: black;
+    padding: 0px 12px;
+    padding-top: 8.5px;
+    padding-bottom: 7.5px;
+    color: #fff;
+    font-size: small;
+    /* float: right; */
+    border:.2px solid;
+}
+
+
+/* ------------ foooter -----------  */
+.footer-containar{
+    width: 100%;
+    height: 130vh;
+    /* display: flex; */
+    display: block;
+    background-color:rgb(32, 30, 27);
+    justify-content: center;
+    position: absolute;
+}
+.footer-first-container{
+    width: 100%;
+    height: 30vh;
+    background:linear-gradient( #080808e3, #0c0b0bdc), url('file:///C:/Users/Veni/Downloads/interview-4835116.jpg');
+    background-size: cover;
+    background-position: 15px;
+    display: flex;
+}
+
+.fist-container{
+    display: block;
+    width: 100%;
+   margin: auto;
+   margin-left: 10%;
+   color: #fff;
+}
+.footer-first-container-fist-div{
+    /* margin-left: 20%; */
+    padding-left: 10%;
+    
+}
+.footer-first-container-fist-div h2{
+    color: rgb(231, 126, 6);
+    text-transform: uppercase;
+}
+.footer-first-container-second-div{
+    /* background-color: #9c9999; */
+    margin-left: 0%;
+    padding: 10px;
+}
+.footer-first-container-second-div a{
+    text-decoration: none;
+    color:rgb(231, 126, 6) ;
+    border: .2px solid rgb(231, 126, 6);
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.footer-first-container-second-div i{
+    padding-right: 4px;
+}
+
+.footer-second-container{
+    width: 70%;
+    height: 80vh;
+    /* background-color: rgb(18, 22, 22); */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.footer-second-one-conatiner{
+    height: 42vh;
+    /* background-color: #fff; */
+    margin-top: 2px;
+    display: flex;
+}
+.footer-second-second-div{
+    /* background-color: aqua; */
+    display: block;
+    width: 100%;
+    /* height: 16vh; */
+    margin: 1px;
+}
+.footer-second-second-div img{
+    margin-bottom: 20px;
+}
+ .footer-second-second-div ul{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+} 
+.footer-second-second-div a {
+    color: #fff;
+    /* font-weight: 500; */
+    margin: 15px;
+    display: block;
+    text-decoration: none;
+
+}
+.footer-second-second-div a i{
+    margin-right: 5px;
+    padding: 5px;
+    
+}
+.phone-hym {
+    background-color:#fff ;
+    /* justify-content: center; */
+    color: black;
+    
+}
+.second-flx-box{
+   padding-left: 20px;
+   display: block;
+   /* width: 70%; */
+}
+.second-flx-box h2{
+    margin-bottom: 55px;
+    font-size:larger;
+    color: #fff;
+    text-transform: uppercase;
+}
+.second-flx-box h2::after{
+    content: '';
+    position: absolute;
+    width: 25%;
+    height: 2px;
+    left: 0;
+    top: 35px;
+    /* background-color: rgb(231, 126, 6); */
+    border: .2px solid #fff;
+}
+#third-flx-box i{
+    font-size: 10px;
+}
+#forth-flx-box p{
+    color:#fff;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+#forth-flx-box input{
+    padding: 13px 34px;
+    border: .1px none #9c9999 ;
+    color: black;
+}
+#forth-flx-box i{
+    margin-left: -40px
+}
+.footer-containar::after{
+    content: '';
+    background-color: #fff;
+    width: 70%;
+    height: .2px;
+    left: 0;
+    margin-left: 15%;
+    bottom: 10%;
+    position: absolute;
+
+}
+.footer-third-container{
+    width: 70%;
+    height: 12vh;
+    /* background-color: rgb(18, 22, 22); */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+.third-co{
+    text-align: center;
+    justify-content: center;
+    padding: 5vh;
+    color: #fff;
+}
+.third-co span{
+    color: rgb(231, 126, 6);
+}
