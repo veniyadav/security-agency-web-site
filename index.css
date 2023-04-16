@@ -178,7 +178,6 @@ nav{
 .About-section-main{
     width: 100%;
     height: 170vh;
-    /* display: flex; */
     display: block;
     background-color:rgb(231, 126, 6);
     justify-content: center;
