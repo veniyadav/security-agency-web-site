@@ -352,7 +352,7 @@ nav{
 .footer-first-container{
     width: 100%;
     height: 30vh;
-    background:linear-gradient( #080808e3, #0c0b0bdc), url('file:///C:/Users/Veni/Downloads/interview-4835116.jpg');
+    background:linear-gradient( #080808e3, #0c0b0bdc), url('interview-4835116.jpg');
     background-size: cover;
     background-position: 15px;
     display: flex;
