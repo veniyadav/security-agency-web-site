@@ -1,0 +1,114 @@
+ @media only screen and (max-width:414px) {
+    .header-div{
+        height: 90vh;
+    }
+    .logo-and-conent{
+        display: block;
+        /* justify-content: space-around; */
+        margin:0px;
+    }
+    .main-log img{
+        margin: 10px 10px;
+        width: 50%;
+    }
+    .content-with-info{
+        display: none;
+    }
+    
+    .About-section-main{
+        height: 200vh;
+    }
+    .speech-provide{
+        height: 110vh;
+        /* background-color: blueviolet; */
+    }
+
+    .peech-second{
+        width: 100%;
+    }
+    .third-container ul li{
+        margin-top: 10px;
+    }
+
+    .main-container-box{
+        display: inline-block;
+        height: 70vh;
+        width: 70%;
+       /* margin-top:-60px ; */
+        background-color:rgb(231, 126, 6);
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .main-container-About-content{
+        margin:10px;
+        margin-bottom: 10%;
+        height: 40vh;
+        width: 100%;
+        background-color: #fff;
+        display: block;
+    }
+
+    .contianer-to-speech{
+        margin-top: 30%;
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+        color: #fff;
+      }
+      
+      .footer-first-container{
+        display: block;
+      }
+      .fist-container{
+        justify-content: center;
+        text-align: center;
+        margin-left: 0%;
+        padding-top: 20px;
+        display: flex;
+      }
+      .fist-container nav{
+        margin:20px ;
+      }
+      .footer-first-container-fist-div{
+       
+        justify-content: center;
+        text-align: center; 
+    }
+      .footer-first-container-second-div{
+        text-align: center;
+      }
+      .footer-first-container-second-div a{
+        margin-left: 30px;
+      }
+      .footer-containar{
+        height: 150vh;
+        display: block;
+        position: absolute;
+      }
+       
+      
+      .footer-second-one-conatiner{
+        height: 55vh;
+        /* background-color: #e78989; */
+        margin-top: 2px;
+        display: block;
+    }
+
+      .Browser-div{
+        height: 42vh;
+      }
+      .footer-second-container{
+        width: 70%;
+        height: 100vh;
+      }
+
+      .footer-third-container{
+        display: block;
+      }
+      .video{
+       background-color: #ffffff07;
+      }
+
+ }
