@@ -6,7 +6,7 @@
     font-family: 'Playfair Display', serif;
 }
 .header-div{
-    background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/violence-3830650.jpg');
+    background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('violence-3830650.jpg');
     height: 110vh;
     width: 100%;
     background-position: center;
@@ -20,11 +20,11 @@
 
 }
 @keyframes backimg {
-    0% { background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/violence-3830650.jpg');}
-    25%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/man-4134645.jpg');}
-    50%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/security-3028679.jpg');}
-    75%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/security-869216.jpg');}
-    100%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('file:///C:/Users/Veni/Downloads/soldier-4244132.jpg');}    
+    0% { background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('violence-3830650.jpg');}
+    25%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('man-4134645.jpg');}
+    50%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('security-3028679.jpg');}
+    75%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('security-869216.jpg');}
+    100%{ background-image: linear-gradient(rgba(10, 10, 10, 0.836),rgba(27, 17, 17, 0.877)),url('soldier-4244132.jpg');}    
 }
 
 .main-log{
@@ -355,7 +355,7 @@
 .footer-first-container{
     width: 100%;
     height: 30vh;
-    background:linear-gradient( #080808e3, #0c0b0bdc), url('file:///C:/Users/Veni/Downloads/interview-4835116.jpg');
+    background:linear-gradient( #080808e3, #0c0b0bdc), url('interview-4835116.jpg');
     background-size: cover;
     background-position: 15px;
     display: flex;
